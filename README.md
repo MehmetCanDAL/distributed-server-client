@@ -27,6 +27,6 @@ Bu paragrafta hata tolerans sisteminde sunucu tercihi veya özgün katkıların�
 ### Ekip üyeleri
 
 - 22060351, Mehmet Can Dal
-- Numara, İsim
+- 22060324, Ertuğrul Han ŞEN
 - Numara, İsim
 - Numara, İsim
