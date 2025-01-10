@@ -20,7 +20,7 @@ Bu paragrafta hata tolerans sisteminde sunucu tercihi veya özgün katkıların�
 
 - configuration.proto dan derlenen configuration_pb.proto'dan method okur ona göre STRT emrini veya STOP emrini serverlara göderir onu da protobuf üzerinden yapıyor
 
-##gitgub link
+##github link
 
 - https://github.com/MehmetCanDAL/distributed-server-client.git
 
