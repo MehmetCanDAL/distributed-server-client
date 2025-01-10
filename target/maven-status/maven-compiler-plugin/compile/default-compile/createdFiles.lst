@@ -1,0 +1,17 @@
+com\example\servers\Server2.class
+com\example\proto\ConfigurationOuterClass.class
+com\example\proto\SubscriberOuterClass$Subscriber$1.class
+com\example\proto\SubscriberOuterClass$Subscriber$Builder.class
+com\example\proto\SubscriberOuterClass$SubscriberOrBuilder.class
+com\example\servers\Server1.class
+com\example\proto\ConfigurationOuterClass$Configuration.class
+com\example\proto\ConfigurationOuterClass$ConfigurationOrBuilder.class
+com\example\servers\Server3.class
+com\example\proto\SubscriberOuterClass$DemandType.class
+com\example\proto\SubscriberOuterClass$Subscriber.class
+com\example\proto\ConfigurationOuterClass$MethodType$1.class
+com\example\proto\SubscriberOuterClass.class
+com\example\proto\SubscriberOuterClass$DemandType$1.class
+com\example\proto\ConfigurationOuterClass$Configuration$Builder.class
+com\example\proto\ConfigurationOuterClass$Configuration$1.class
+com\example\proto\ConfigurationOuterClass$MethodType.class

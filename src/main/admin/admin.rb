@@ -8,13 +8,13 @@ SERVERS = [
   { name: 'Server3', host: 'localhost', port: 5003 }
 ]
 
-# Komut gönderme metodu
+
 def send_command(server, method_type)
   begin
     socket = TCPSocket.new(server[:host], server[:port])
-    config = Com::Example::Proto::Configuration.new( # Tam yolu belirtiyoruz
+    config = Com::Example::Proto::Configuration.new( 
       fault_tolerance_level: 3,
-      method: Com::Example::Proto::MethodType.const_get(method_type) # Enum için tam yol
+      method: Com::Example::Proto::MethodType.const_get(method_type) 
     )
     socket.write(config.to_proto)
     socket.close
@@ -24,7 +24,7 @@ def send_command(server, method_type)
   end
 end
 
-# Kullanıcı etkileşimi
+
 loop do
   puts "\nKomut Seçin:"
   puts "1. Sunucuları Başlat (STRT)"
