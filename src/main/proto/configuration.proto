@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.example.proto;
+
+message Configuration {
+  int32 fault_tolerance_level = 1;
+  MethodType method = 2;
+}
+
+enum MethodType {
+  STRT = 0;
+  STOP = 1;
+}

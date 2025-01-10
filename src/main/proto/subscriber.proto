@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package com.example.proto;
+
+message Subscriber {
+  int32 ID = 1;
+  string name_surname = 2;
+  int64 start_date = 3;
+  int64 last_accessed = 4;
+  bool isOnline = 5;
+  DemandType demand = 6;
+}
+
+enum DemandType {
+  SUBS = 0;
+  DEL = 1;
+  UPDT = 2;
+}
